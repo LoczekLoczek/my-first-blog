@@ -4,11 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/Homepage/static/StronaMaracza/css/css.css" line="44" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="869a6f69-8af9-452c-b211-37e30f523b1d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StronaMaracza/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/StronaMaracza/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StronaMaracza/static/css.css" beforeDir="false" />
-    </list>
+    <list default="true" id="869a6f69-8af9-452c-b211-37e30f523b1d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -245,9 +241,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09378293" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09378293" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
@@ -255,7 +251,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3293348" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18320611" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18320611" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
