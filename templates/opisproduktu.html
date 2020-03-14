@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Zanurzone</title>
+
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'StronaMaracza/css/opisproduktu.css' %}">
+
+
+
+    <meta name="viewport" content="width=device-width">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+  <div class="navbar">
+    <a href="../../#">
+      <img class="logo"src="{% static 'StronaMaracza/images/golden_logo_zanurzone2.png' %}" alt="logo">
+    </a>
+    <a class="btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <div class="menu">
+      <a href="#1" class="scroll">O Nas</a>
+      <a href="" class="scroll">Produkty</a>
+      <a href="{% url 'home' %}" class="scroll">Dostawa</a>
+      <a href="../../#4" class="scroll">Kontakt</a>
+    </div>
+  </div>
+
+  <div class="tytul">
+    <h4 class="tytul"></h4>
+  </div>
+
+
+  <div class="produkty">
+  {% block content %}
+
+    <img id="produkt2" src="{{ objekty.image.url }}">
+    <div class="rowik">
+      <div class="tekst">
+        <p>&emsp;{{ objekty.dlugiopis }}</p>
+      </div>
+    </div>
+  {% endblock%}
+
+  </div>
+
+
+    <div class="tytul">
+
+    </div>
+
+  <footer>
+  <ul class="foot_links">
+
+    <li class="footy">2020</li>
+    <li class="footy">wykonanie: rekowski.krzysztof@gmail.com</li>
+
+  </ul>
+
+
+  </footer>
+  </body>
+
+
+
+    <script src="{% static 'StronaMaracza/js/opisproduktu.js' %}"></script>
+</html>

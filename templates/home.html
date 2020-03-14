@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Zanurzone</title>
+
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'StronaMaracza/css/css.css' %}">
+
+
+
+    <meta name="viewport" content="width=device-width">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+  <div class="navbar">
+    <a href="#">
+      <img class="logo"src="{% static 'StronaMaracza/images/golden_logo_zanurzone2.png' %}" alt="logo">
+    </a>
+    <a class="btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <div class="menu">
+      <a href="#1" class="scrollLink">O Nas</a>
+      <a href="#2" class="scrollLink">Produkty</a>
+      <a href="#3" class="scrollLink">Dostawa</a>
+      <a href="#4" class="scrollLink">Kontakt</a>
+    </div>
+  </div>
+
+
+
+
+    <div class="karuzela">
+
+      <img class="mySlides" src="{% static 'StronaMaracza/images/tapeta-czekolada-pralinki-i-orzechy.jpg' %}">
+      <img class="mySlides" src="{% static 'StronaMaracza/images/czekolada-bubbles-bar-blog-900x533.jpg' %}">
+      <img class="mySlides" src="{% static 'StronaMaracza/images/z21895451V,Cena-czekolady-zalezy-przede-wszystkim-od-kosztow-.jpg' %}">
+
+
+    </div>
+
+
+
+
+    <div class="tytul">
+      <h4 class="tytul"  id="1">Troszkę o nas</h4>
+    </div>
+
+    <div class="rowik">
+      <div class="tekst">
+        <p>&emsp; Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker, Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker</p>
+      </div>
+    </div>
+
+
+
+    <div class="tytul">
+      <h4 class="tytul" id="2">Nasze produkty</h4>
+    </div>
+
+  <div class="produkty">
+
+      {% for produkt in produkty.all %}
+        <div class="podprodukty">
+        <img id="produkt1" src="{{ produkt.image.url }}">
+          <div class="cialo">
+            <h2>{{ produkt.name }}</h2>
+            <h5>{{ produkt.krotkiopis }}</h5>
+            <a href="{{ produkt.get_absolute_url }}" class="przycisk"><button id="przycisk" style="font-size: 16px; color: white;">Wincyj</button></a>
+          </div>
+        </div>
+      {% endfor %}
+  </div>
+
+
+  <div class="tytul">
+    <h4 class="tytul" id="3">Szczegóły dostawy</h4>
+  </div>
+
+  <div class="dostawa">
+
+
+
+    <div id="zgory">
+      <img id="zgoryimg" src="{% static 'StronaMaracza/images/Courier-Service-Manchester-Nationwide-by-EMS-Cargo.jpg' %}">
+      <h3 class="kurier1">KURIER POLSKA</h3>
+      <p class="kurieropis">płatność z góry 17,99zł</p>
+      <p class="kurieropis2">dostawy gratis ustalane indywidualne</p>
+      <p class="kurieropis2">realizacja: 1-3 dni roboczych</p>
+    </div>
+    <div id="zapobraniem">
+      <img id="zapobraniemimg" src="{% static 'StronaMaracza/images/mensajeria-courier-en-lima-documentospaquetesetc-envio-D_NQ_NP_691206-MPE25697179925_062017-F.jpg' %}">
+      <h3 class="kurier2">KURIER POLSKA</h3>
+      <p class="kurieropis">płatność za pobraniem 22,99zł</p>
+      <p class="kurieropis2">płatność kurierowi w dniu doręczenia</p>
+      <p class="kurieropis2">realizacja: 1-3 dni roboczych</p>
+    </div>
+
+  </div>
+
+  <div class="tytul">
+      <h4 class="tytul" id="4">Skontaktuj się z nami</h4>
+
+  </div>
+
+
+  <div class="formularz">
+    <div id="forma1">
+
+      <form id="contact-form" action="{% url 'send_email' %}" role="form">
+          {% csrf_token %}
+          <div class="messages">
+              {% if messages %}
+              {% for message in messages %}
+              <div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}" role="alert">
+                  {{ message }}
+              </div>
+              {% endfor %}
+              {% endif %}
+          </div>
+        <table >
+          <tr>
+
+            <td class="tekscik">Imię:</td>
+            <td><input type="text" name="name"  required="required" data-error="Imię jest wymagane"></td>
+
+          </tr>
+          <tr>
+            <td class="tekscik">Nazwisko:</td>
+            <td><input type="text" name="nazwisko" required="required" data-error="Nazwisko jest wymagane"></td>
+          </tr>
+          <tr>
+            <td class="tekscik">Adres email:</td>
+            <td><input type="email" name="emailik"  required="required" data-error="Adres email jest wymagany"></td>
+          </tr>
+          <tr>
+
+            <td class="tekscik">Twoja wiadomość:</td>
+            <td><textarea id="rozmiarwiadomosci" name="message"  required="required" data-error="Please, leave us a message."></textarea></td>
+
+          </tr>
+          </table>
+
+
+
+
+
+            <h5 class="czekboxy">Administratorem danych jest Słoikówka Kamil Marach, ul. Rivoliego 13, 62-030 Luboń (więcej informacji <a href='/politykaprywatnosci' target='_new' class="czekboxy">Polityka Prywatności</a>)</h5>
+            <input type="checkbox" id="coding1" name="checkbox-98[]" required="required">
+            <label for="coding1" class="czekboxy">"Wyrażam zgodę na przetwarzanie moich danych osobowych w celach obsługi wysłanego przeze mnie za pośrednictwem formularza kontaktowego zapytania. Podanie danych osobowych jest dobrowolne, ale niezbędne do obsługi zapytania. Przysługuje mi prawo dostępu do moich danych, ich poprawiania, wyrażania sprzeciwu wobec ich przetwarzania oraz żądania ich usunięcia."</label>
+            <br><br><input type="checkbox" id="coding2" name="checkbox-99[]" >
+            <label for="coding2" class="czekboxy">"Wyrażam zgodę na przetwarzanie moich danych osobowych w celu wysyłania treści marketingowych (informacji handlowych) . Przysługuje mi prawo dostępu do moich danych, ich poprawiania, wyrażania sprzeciwu wobec ich przetwarzania oraz żądania ich usunięcia."</label>
+            <br><br><input type="checkbox" id="coding3" name="checkbox-97[]" >
+            <label for="coding2" class="czekboxy">"Wyrażam zgodę na przetwarzanie moich danych osobowych w celu realizacji usługi newsletter. Podanie danych osobowych jest dobrowolne, ale niezbędne do realizacji usługi. Przysługuje mi prawo dostępu do moich danych, ich poprawiania, wyrażania sprzeciwu wobec ich przetwarzania oraz żądania ich usunięcia."</label>
+            <br>
+
+          <span class="przyciski">
+          <input type="submit" id="wyslij">
+          <input type="reset" value="Wyczyść" id="resetuj">
+          </span>
+
+      </form>
+
+
+
+
+
+
+
+    </div>
+    <div id="forma2">
+      <form>
+        <table >
+          <tr>
+            <td class="daneadresowe"><h2>Adres</h2><br>ul. Rivoliego 13<br>62-030 Luboń</td>
+          </tr>
+          <tr>
+            <td><br></td>
+          </tr>
+          <tr>
+            <td class="daneadresowe"><h2>Telefon</h2><br>516 534 346</td>
+          </tr>
+          <tr>
+            <td><br></td>
+          </tr>
+          <tr>
+            <td  class="daneadresowe"><h2>Email</h2><br>zanurzone.com.pl</td>
+          </tr>
+          <tr>
+            <td><br></td>
+          </tr>
+          </table>
+      </form>
+    </div>
+
+  </div>
+
+    <div class="tytul">
+      <h4 class="tytul">Jak nas znaleźć</h4>
+
+    </div>
+    <div class="mapa">
+
+      <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2437.1040244304886!2d16.891242815994424!3d52.350398556536554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47045aa7080d3757%3A0x14cd89f12a5bc9e3!2zTWHFgmUgU3pjesSZxZtjaWE!5e0!3m2!1spl!2spl!4v1578251192818!5m2!1spl!2spl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+  </div>
+
+
+
+
+
+
+  <div class="tytul">
+    <h4 class="tytul">Nasze pozostałe marki</h4>
+  </div>
+
+
+  <div class="naszemarki">
+
+
+    <div id="maleszczescia">
+      <a href="https://maleszczescia.com/">
+      <img id="maleszczesciaimg" src="{% static 'StronaMaracza/images/golden_logo_male-szczescia.png' %}">
+      </a>
+    </div>
+    <div id="manufakturalagowski">
+      <a href="https://manufakturalagowski.pl/">
+      <img id="manufakturalagowskiimg" src="{% static 'StronaMaracza/images/golden_logo_manufaktura.png' %}">
+      </a>
+    </div>
+
+  </div>
+
+
+
+  <div class="tytulz">
+    <img id="zanurzoneimg" src="{% static 'StronaMaracza/images/golden_logo_zanurzone2.png' %}">
+
+
+  </div>
+
+
+
+
+<footer>
+<ul class="foot_links">
+
+  <li class="footy">2020</li>
+  <li class="footy">wykonanie: rekowski.krzysztof@gmail.com</li>
+
+</ul>
+
+
+</footer>
+
+<link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.min.css" rel="stylesheet"/>
+
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.min.js"></script>
+<script language="javascript">
+    $(function() {
+        toastr.options = {
+           "closeButton": true,
+           "debug": false,
+           "positionClass": "toast-bottom-right",
+           "showDuration": "300",
+           "hideDuration": "1000",
+           "timeOut": "0",
+           "extendedTimeOut": "1000",
+           "showEasing": "swing",
+           "hideEasing": "linear",
+           "showMethod": "fadeIn",
+           "hideMethod": "fadeOut"
+        }
+  toastr.info("<p'>Portal w swym działaniu wykorzystuje pliki cookies. Aby dowiedzieć się więcej sprawdź naszą <a href='/politykaprywatnosci' target='_new'>Politykę Prywatności.</a></p>");
+    });
+</script>
+
+
+</body>
+<!--<script src="javascript.js"></script>-->
+
+    <script src="{% static 'StronaMaracza/js/javascript.js' %}"></script>
+</html>
