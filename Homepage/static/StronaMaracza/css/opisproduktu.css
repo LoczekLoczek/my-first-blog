@@ -1,0 +1,249 @@
+    {% load static %}
+
+
+
+
+html{
+  height: 100%;
+}
+
+
+@font-face {
+  font-family: 'Freude';
+  src: local('Freude'),
+       url('../static/fonts/Freude.ttf') format("truetype");
+}
+
+
+* {
+    font-family: "Freude", sans-serif;
+    font-weight: 220 !important;
+}
+
+li, a, button, p{
+
+    font-size: 25px;
+    color: #CB9F52;
+    text-decoration: none;
+}
+body{
+
+  background-color: black;
+  background-size: cover;
+  color: #CB9F52; !important;
+  margin-left:  15%;
+  margin-right:  15%;
+  margin-bottom: 0;
+  margin-top: 0 !important;
+
+
+
+}
+
+.navbar{
+  position: fixed;
+  height: 64px;
+  overflow: hidden;
+  top: 0;
+  display: flex;
+  align-items: center;
+  right:15%;
+  left:15%;
+
+  background-color: black;
+  border-bottom: solid #CB9F52;
+
+}
+.logo{
+  background-size: contain;
+  float: left;
+  margin-left:50px;
+  cursor: pointer;
+  height: 62px;
+}
+
+
+
+
+.menu{
+  position: absolute;
+
+  right: 60px;
+
+}
+.menu a{
+  color: #ECCF6C;
+  text-decoration: none;
+  font-weight: 1000;
+  margin-left: 30px;
+  transition: color 0.3s;
+  text-transform: uppercase;
+
+}
+.menu a:hover{
+  color: rgb(73, 100, 100);
+}
+
+
+
+.btn{
+  display: none;
+  position: absolute;
+  right: 20px;
+}
+.btn:hover > span{
+  background: #333;
+}
+.btn span{
+  display: block;
+  margin: 6px;
+  width: 40px;
+  height: 3px;
+  background: #ECCF6C;
+}
+
+
+
+
+.produkty {
+  padding-top: 8%;
+  padding-bottom: 1%;
+  padding-left: 11%;
+  padding-right: 11%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+  min-height: 80vh;
+
+
+}
+
+
+#produkt2 {
+
+  width: 70%;
+  height: 10%;
+}
+
+
+
+.rowik {
+    padding: 2%;
+    background-color: black;
+  }
+
+.tekst {
+  margin-left: 6%;
+  margin-right: 6%;
+  text-align: justify;
+
+
+}
+
+
+
+
+
+
+
+
+.tytul {
+
+  text-align: center;
+
+  background-color: #black;
+  padding: 0.5%;
+  margin: 0;
+  font-size: xx-large;
+  border-top: solid #CB9F52;
+  border-bottom: solid #CB9F52;
+
+}
+
+
+#zanurzoneimg {
+
+  height: 62px;
+  margin-bottom: -0.5%;
+  margin-left:50px;
+
+}
+
+
+
+.foot_links {
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: black;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0%;
+
+
+
+}
+
+.footy {
+
+  font-size: 12px !important;
+  color: #8a6d5d;
+  list-style: none;
+
+}
+
+
+
+
+
+@media only screen and (max-width : 1120px) {
+
+  .navbar{
+    overflow: visible;
+  }
+  .menu{
+    width: 100%;
+    right: 0;
+    top: 62px;
+    background: black;
+    overflow: hidden;
+    max-height: 0;
+
+  }
+  .menu a{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+
+
+  }
+  .btn{
+    display: block;
+    cursor: pointer;
+  }
+  .show{
+    max-height: 500px;
+  }
+
+
+
+  .tytul {
+    font-size: 32px !important;
+  }
+
+
+  #produkt2 {
+
+    width: 90%;
+    padding-top: 15%;
+  }
+
+
+  p {
+    font-size: 80%;
+  }
+
+}

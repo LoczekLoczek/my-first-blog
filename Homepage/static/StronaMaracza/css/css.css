@@ -1,0 +1,591 @@
+    {% load static %}
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+* {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600 !important;
+}
+
+*/
+
+@font-face {
+  font-family: 'Freude';
+  src: local('Freude'),
+       url('../static/fonts/Freude.ttf') format("truetype");
+}
+
+
+* {
+    font-family: "Freude", sans-serif;
+    font-weight: 220 !important;
+}
+
+li, a, button, p{
+
+    font-size: 25px;
+    color: #CB9F52;
+    text-decoration: none;
+}
+
+
+/*
+
+
+dark-brown-textured-wallpaper-awesome-brown-background-18647-19119-hd-wallpapers.jpg
+dark-brown-textured-wallpaper-dark-texture-21826-1920x1200.jpg
+Brown-Wallpaper-Computer-Themes.jpg
+
+*/
+
+
+
+
+body{
+
+  background-image: url("/static/StronaMaracza/images/istockphoto-939499120-1024x1024.jpg");
+  background-size: contain ;
+  color: #CB9F52; !important;
+  margin-left:  15%;
+  margin-right:  15%;
+  margin-bottom: 0;
+  margin-top: 0 !important;
+
+
+}
+
+.navbar{
+  position: fixed;
+  height: 64px;
+  overflow: hidden;
+  top: 0;
+  display: flex;
+  align-items: center;
+  right:15%;
+  left:15%;
+
+  background-image: url("/static/StronaMaracza/images/istockphoto-939499120-1024x1024.jpg");
+  background-size: cover;
+  border-bottom: solid #CB9F52;
+
+
+
+
+
+
+
+}
+.logo{
+  background-size: contain;
+  float: left;
+  margin-left:50px;
+  cursor: pointer;
+  height: 62px;
+}
+
+
+
+
+.menu{
+  position: absolute;
+
+  right: 60px;
+
+}
+.menu a{
+  color: #ECCF6C;
+  text-decoration: none;
+  font-weight: 1000;
+  margin-left: 30px;
+  transition: color 0.3s;
+  text-transform: uppercase;
+
+}
+.menu a:hover{
+  color: rgb(73, 100, 100);
+}
+
+
+
+
+
+.btn{
+  display: none;
+  position: absolute;
+  right: 20px;
+}
+.btn:hover > span{
+  background: #333;
+}
+.btn span{
+  display: block;
+  margin: 6px;
+  width: 40px;
+  height: 3px;
+  background: #ECCF6C;
+}
+
+
+
+@media only screen and (max-width : 1120px) {
+
+  .navbar{
+    overflow: visible;
+  }
+  .menu{
+    width: 100%;
+    right: 0;
+    top: 62px;
+    background: black;
+    overflow: hidden;
+    max-height: 0;
+
+  }
+  .menu a{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+
+
+  }
+  .btn{
+    display: block;
+    cursor: pointer;
+  }
+  .show{
+    max-height: 500px;
+  }
+
+  .karuzela {
+    height: 300px !important;
+
+  }
+
+  .tytul {
+    font-size: 32px !important;
+  }
+
+  #maleszczesciaimg, #manufakturalagowskiimg {
+
+    width: 30vw !important;
+
+  }
+
+  .kurier1, .kurier2 {
+  /* padding-top: 5%; */
+  text-align: center;
+  margin-bottom: 5px !important;
+  margin-top: 12px !important;
+  }
+
+  #toast-container > div {
+
+
+  font-size: 14px !important;
+  position: center;
+
+  }
+
+  #toast-container a {
+
+  font-size: 14px !important;
+
+
+  }
+
+
+  #forma1 {
+
+  width: 100% !important;
+
+  }
+
+  li, a, button, p{
+
+    font-size: 18px;
+  }
+
+
+}
+
+
+
+
+.rowik {
+    padding: 2%;
+    background-image: url("/static/StronaMaracza/images/istockphoto-939499120-1024x1024.jpg");
+    background-size: cover;
+    width: auto;
+  }
+
+
+
+.karuzela {
+  height: 450px;
+}
+
+.mySlides {
+
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.tekst {
+  margin-left: 6%;
+  margin-right: 6%;
+  text-align: justify;
+
+
+}
+
+
+.produkty {
+  padding-top: 4%;
+  padding-bottom: 1%;
+  padding-left: 11%;
+  padding-right: 11%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url("/static/StronaMaracza/images/istockphoto-939499120-1024x1024.jpg");
+  background-size: auto;
+
+
+
+}
+
+
+.podprodukty {
+
+  height: 340px;
+  width: 310px;
+  border: solid 1px #ECCF6C;
+  background-color: rgb(95, 79, 67);
+  margin: 1.5% ;
+  margin-bottom: 3%;
+
+}
+
+
+#produkt1 {
+
+  width: 100%;
+  height: 50%;
+
+}
+
+#produkt2 {
+
+  width: 50%;
+
+
+}
+
+
+.cialo {
+
+  padding: auto;
+  text-align: center;
+
+}
+
+
+
+#przycisk {
+
+  background-color: #6C757D;
+  border-style: none;
+  padding: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  word-wrap: normal;
+  border-radius: .25rem;
+  margin: 2%;
+}
+
+
+
+#forma1 {
+
+    width: 50%;
+    text-align: justify;
+
+}
+
+#wyslij {
+  background-color: #6C757D;
+  border-style: none;
+  padding: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  word-wrap: normal;
+  border-radius: .25rem;
+  margin: 2%;
+  color: white;
+  margin-left: 20%
+
+}
+
+#resetuj {
+  background-color: #6C757D;
+  border-style: none;
+  padding: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  word-wrap: normal;
+  border-radius: .25rem;
+  margin: 2%;
+  color: white;
+  margin-left: 20%
+
+}
+
+
+
+
+
+.tekscik {
+
+    font-size: 21px;
+}
+
+.czekboxy {
+
+    font-size: 15px;
+
+
+}
+
+
+
+.dostawa {
+
+  padding: 4%;
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url("/static/StronaMaracza/images/istockphoto-939499120-1024x1024.jpg");
+  background-size: auto;
+}
+
+
+.tytul {
+
+  text-align: center;
+
+  background-color: #black;
+  padding: 0.5%;
+  margin: 0;
+  font-size: xx-large;
+  border-top: solid #CB9F52;
+  border-bottom: solid #CB9F52;
+
+}
+
+#zgory, #zapobraniem {
+  height: 340px;
+  width: 310px;
+  border: solid 1px #ECCF6C;
+  background-color: rgb(95, 79, 67);
+  overflow: hidden;
+}
+
+#zgoryimg {
+
+  width: 100%;
+  height: 200px;
+
+
+}
+
+
+#zapobraniemimg {
+
+  width: 100%;
+  height: 200px;
+
+
+}
+
+
+
+
+
+.kurier1, .kurier2 {
+  /* padding-top: 5%; */
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+.kurieropis {
+
+  font-size: small;
+  text-align: center;
+  margin: 1px;
+  overflow-wrap: normal;
+
+}
+
+.kurieropis2 {
+
+  font-size: small;
+  text-align: center;
+  margin: 1px;
+  overflow-wrap: normal;
+
+}
+
+
+
+
+
+
+
+.formularz {
+  padding: 4% 0% 4% 0%;
+  display: flex;
+
+  background-image: url("/static/StronaMaracza/images/istockphoto-939499120-1024x1024.jpg");
+  background-size: auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+
+
+.daneadresowe {
+  padding: 7.8px 90px;
+  background-color: rgb(95, 79, 67);
+  text-align: center;
+  justify-content: space-around;
+
+}
+
+#rozmiarwiadomosci {
+  height: 30vh;
+  width: 20vw;
+  min-width: 165px;
+  /* width: 100%; */
+
+}
+
+
+
+
+
+
+.mapa {
+  padding: 4%;
+  display: flex;
+
+  background-image: url("/static/StronaMaracza/images/istockphoto-939499120-1024x1024.jpg");
+  background-size: cover;
+
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+#map {
+  width: 100%;
+
+}
+
+
+
+
+
+
+.naszemarki {
+
+  padding: 4%;
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url("/static/StronaMaracza/images/istockphoto-939499120-1024x1024.jpg");
+  background-size: cover;
+}
+
+
+
+#maleszczesciaimg, #manufakturalagowskiimg {
+
+  background-size: cover;
+  height: 30vh;
+  width: 20vw;
+
+}
+
+
+
+
+.tytulz {
+
+
+  background-color: #black;
+
+  margin: 0;
+  font-size: xx-large;
+  border-top: solid #CB9F52;
+  border-bottom: solid #CB9F52;
+
+
+}
+
+
+
+#zanurzoneimg {
+
+  height: 62px;
+  margin-bottom: -0.5%;
+  margin-left:50px;
+
+}
+
+
+
+
+
+
+
+.foot_links {
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-image: url("/static/StronaMaracza/images/istockphoto-939499120-1024x1024.jpg");
+  background-size: cover;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0%;
+
+
+}
+
+.footy {
+
+  font-size: 12px !important;
+  color: #8a6d5d;
+  list-style: none;
+
+}
+
+
+
+#toast-container > div {
+
+    background-color: black;
+    font-size: 16px;
+    font-family: arial;
+    color: #CB9F52 !important;
+}
+
+#toast-container a {
+
+font-size: 18px !important;
+
+
+}
+
+

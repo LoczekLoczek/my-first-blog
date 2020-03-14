@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/static/StronaMaracza/css/css.css" line="44" />
+    <bookmark url="file://$PROJECT_DIR$/Homepage/static/StronaMaracza/css/css.css" line="44" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="869a6f69-8af9-452c-b211-37e30f523b1d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StronaMaracza/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/StronaMaracza/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StronaMaracza/static/css.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,17 +30,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="opisproduktu.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/StronaMaracza/css/opisproduktu.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="javascript.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/StronaMaracza/js/javascript.js">
+        <entry file="file://$PROJECT_DIR$/Homepage/static/StronaMaracza/js/javascript.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="682">
               <caret line="33" selection-start-line="33" selection-end-line="33" />
@@ -58,8 +51,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StronaMaracza/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="127" column="43" selection-start-line="127" selection-start-column="43" selection-end-line="127" selection-end-column="43" />
+            <state relative-caret-position="569">
+              <caret line="141" column="23" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -101,7 +94,7 @@
         </entry>
       </file>
       <file leaf-file-name="opisproduktu.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/StronaMaracza/js/opisproduktu.js">
+        <entry file="file://$PROJECT_DIR$/Homepage/static/StronaMaracza/js/opisproduktu.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
               <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
@@ -110,7 +103,7 @@
         </entry>
       </file>
       <file leaf-file-name="css.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/StronaMaracza/css/css.css">
+        <entry file="file://$PROJECT_DIR$/Homepage/static/StronaMaracza/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="12232">
               <caret line="556" column="85" selection-start-line="556" selection-start-column="85" selection-end-line="556" selection-end-column="85" />
@@ -205,16 +198,6 @@
               <item name="StronaMaracza-project" type="462c0819:PsiDirectoryNode" />
               <item name="Homepage" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="StronaMaracza-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StronaMaracza-project" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StronaMaracza-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StronaMaracza-project" type="462c0819:PsiDirectoryNode" />
-              <item name="StronaMaracza" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -229,11 +212,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Loczko\PycharmProjects\StronaMaracza\StronaMaracza-project\Homepage" />
       <recent name="C:\Users\Loczko\PycharmProjects\StronaMaracza\StronaMaracza-project\static\StronaMaracza" />
       <recent name="C:\Users\Loczko\PycharmProjects\StronaMaracza\StronaMaracza-project\media" />
       <recent name="C:\Users\Loczko\PycharmProjects\StronaMaracza\StronaMaracza-project\static\StronaMaracza\css" />
       <recent name="C:\Users\Loczko\PycharmProjects\StronaMaracza\StronaMaracza-project\static\StronaMaracza\js" />
-      <recent name="C:\Users\Loczko\PycharmProjects\StronaMaracza\StronaMaracza-project\StronaMaracza" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -267,6 +250,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09378293" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3293348" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -280,14 +264,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/StronaMaracza/css/css.css">
+    <entry file="file://$PROJECT_DIR$/Homepage/static/StronaMaracza/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12232">
           <caret line="556" column="85" selection-start-line="556" selection-start-column="85" selection-end-line="556" selection-end-column="85" />
@@ -467,13 +450,6 @@
     <entry file="file://$PROJECT_DIR$/StronaMaracza/forms.py" />
     <entry file="file://$PROJECT_DIR$/templates/success.html" />
     <entry file="file://$PROJECT_DIR$/Homepage/views.py" />
-    <entry file="file://$PROJECT_DIR$/StronaMaracza/static/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/emailer/views.py" />
     <entry file="file://$PROJECT_DIR$/StronaMaracza/views.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -507,14 +483,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/StronaMaracza/css/opisproduktu.css">
+    <entry file="file://$PROJECT_DIR$/Homepage/static/StronaMaracza/css/opisproduktu.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/StronaMaracza/js/javascript.js">
+    <entry file="file://$PROJECT_DIR$/Homepage/static/StronaMaracza/js/javascript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
@@ -551,14 +527,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/StronaMaracza/js/opisproduktu.js">
+    <entry file="file://$PROJECT_DIR$/Homepage/static/StronaMaracza/js/opisproduktu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/StronaMaracza/css/css.css">
+    <entry file="file://$PROJECT_DIR$/Homepage/static/StronaMaracza/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12232">
           <caret line="556" column="85" selection-start-line="556" selection-start-column="85" selection-end-line="556" selection-end-column="85" />
@@ -599,10 +575,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/StronaMaracza/static/css.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/StronaMaracza/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="127" column="43" selection-start-line="127" selection-start-column="43" selection-end-line="127" selection-end-column="43" />
+        <state relative-caret-position="569">
+          <caret line="141" column="23" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
         </state>
       </provider>
     </entry>
