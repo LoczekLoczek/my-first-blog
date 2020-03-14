@@ -25,7 +25,7 @@ SECRET_KEY = 'gkqxh&g$kcr)d5$7xm=)(!@gzmv+*4xpwacr=x+c=)le6+e9_-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 
 # Application definition
@@ -125,7 +125,7 @@ STATICFILES_DIRS = [
 ]
 
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'StronaMaracza.static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'var', 'static')
 
 STATIC_URL = '/static/'
 
