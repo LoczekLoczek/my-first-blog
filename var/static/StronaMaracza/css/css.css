@@ -41,7 +41,7 @@ Brown-Wallpaper-Computer-Themes.jpg
 
 body{
 
-  background-image: url("/static/StronaMaracza/images/istockphoto-939499120-1024x1024.jpg");
+  background-image: url("/static/StronaMaracza/images/Brown-Wallpaper-Computer-Themes.jpg");
   background-size: contain ;
   color: #CB9F52; !important;
   margin-left:  15%;
@@ -63,7 +63,7 @@ body{
   left:15%;
 
 
-  background-image: url("/static/StronaMaracza/images/istockphoto-939499120-1024x1024.jpg");
+  background-image: url("/static/StronaMaracza/images/Brown-Wallpaper-Computer-Themes.jpg");
   background-size: cover;
   border-bottom: solid #CB9F52;
 
@@ -213,7 +213,7 @@ body{
 
 .rowik {
     padding: 2%;
-  background-image: url("/static/StronaMaracza/images/dark-brown-textured-wallpaper-awesome-brown-background-18647-19119-hd-wallpapers.jpg");
+  background-image: url("/static/StronaMaracza/images/Brown-Wallpaper-Computer-Themes.jpg");
     background-size: cover;
     width: auto;
   }
@@ -249,7 +249,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: black;
+  background-image: url("/static/StronaMaracza/images/Brown-Wallpaper-Computer-Themes.jpg");
   background-size: auto;
 
 
@@ -262,7 +262,8 @@ body{
   height: 340px;
   width: 310px;
   border: solid 1px #ECCF6C;
-  background-color: rgb(95, 79, 67);
+  #background-color: rgb(95, 79, 67);
+    background-image: url("/static/StronaMaracza/images/Brown-Wallpaper-Computer-Themes.jpg");
   margin: 1.5% ;
   margin-bottom: 3%;
 
@@ -365,7 +366,7 @@ body{
   padding: 4%;
   display: flex;
   justify-content: space-evenly;
-  background-color: black;
+  background-image: url("/static/StronaMaracza/images/Brown-Wallpaper-Computer-Themes.jpg");
   background-size: auto;
 }
 
@@ -387,7 +388,8 @@ body{
   height: 340px;
   width: 310px;
   border: solid 1px #ECCF6C;
-  background-color: rgb(95, 79, 67);
+  #background-color: rgb(95, 79, 67);
+    background-image: url("/static/StronaMaracza/images/Brown-Wallpaper-Computer-Themes.jpg");
   overflow: hidden;
 }
 
@@ -446,7 +448,7 @@ body{
 .formularz {
   padding: 4% 0% 4% 0%;
   display: flex;
-  background-color: black;
+  background-image: url("/static/StronaMaracza/images/Brown-Wallpaper-Computer-Themes.jpg");
   background-size: auto;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -457,7 +459,8 @@ body{
 
 .daneadresowe {
   padding: 7.8px 90px;
-  background-color: rgb(95, 79, 67);
+  #background-color: rgb(95, 79, 67);
+    background-image: url("/static/StronaMaracza/images/Brown-Wallpaper-Computer-Themes.jpg");
   text-align: center;
   justify-content: space-around;
 
@@ -479,7 +482,7 @@ body{
 .mapa {
   padding: 4%;
   display: flex;
-  background-color: black;
+  background-image: url("/static/StronaMaracza/images/Brown-Wallpaper-Computer-Themes.jpg");
   background-size: cover;
 
   justify-content: space-evenly;
@@ -502,7 +505,7 @@ body{
   padding: 4%;
   display: flex;
   justify-content: space-evenly;
-  background-color: black;
+  background-image: url("/static/StronaMaracza/images/Brown-Wallpaper-Computer-Themes.jpg");
   background-size: cover;
 }
 
@@ -553,7 +556,7 @@ body{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-image: url("/static/StronaMaracza/images/istockphoto-939499120-1024x1024.jpg");
+  background-image: url("/static/StronaMaracza/images/Brown-Wallpaper-Computer-Themes.jpg");
   background-size: cover;
   padding-left: 5%;
   padding-right: 5%;
