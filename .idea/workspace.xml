@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="869a6f69-8af9-452c-b211-37e30f523b1d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/Homepage/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homepage/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/static/StronaMaracza/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/var/static/StronaMaracza/css/css.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Homepage/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="52" />
+            <state relative-caret-position="308">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -25,10 +26,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="css.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/var/static/StronaMaracza/css/css.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-838">
+              <caret line="504" column="26" selection-start-line="504" selection-start-column="26" selection-end-line="504" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="opisproduktu.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/opisproduktu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
+            <state relative-caret-position="-264">
               <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
             </state>
           </provider>
@@ -137,6 +147,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/StronaMaracza/settings.py" />
         <option value="$PROJECT_DIR$/Homepage/models.py" />
+        <option value="$PROJECT_DIR$/var/static/StronaMaracza/css/css.css" />
       </list>
     </option>
   </component>
@@ -169,7 +180,34 @@
             <path>
               <item name="StronaMaracza-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="StronaMaracza-project" type="462c0819:PsiDirectoryNode" />
+              <item name="Homepage" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StronaMaracza-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StronaMaracza-project" type="462c0819:PsiDirectoryNode" />
               <item name="var" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StronaMaracza-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StronaMaracza-project" type="462c0819:PsiDirectoryNode" />
+              <item name="var" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StronaMaracza-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StronaMaracza-project" type="462c0819:PsiDirectoryNode" />
+              <item name="var" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="StronaMaracza" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StronaMaracza-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StronaMaracza-project" type="462c0819:PsiDirectoryNode" />
+              <item name="var" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="StronaMaracza" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -243,13 +281,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/StronaMaracza/css/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12232">
-          <caret line="556" column="85" selection-start-line="556" selection-start-column="85" selection-end-line="556" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Homepage/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -542,16 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Homepage/views/beta.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/StronaMaracza/js/opisproduktu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -583,15 +604,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/opisproduktu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StronaMaracza/static/css.css">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homepage/views/beta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StronaMaracza/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -600,13 +624,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/opisproduktu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Homepage/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="52" />
+        <state relative-caret-position="308">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/static/StronaMaracza/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-838">
+          <caret line="504" column="26" selection-start-line="504" selection-start-column="26" selection-end-line="504" selection-end-column="26" />
         </state>
       </provider>
     </entry>

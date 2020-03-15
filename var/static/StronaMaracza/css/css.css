@@ -62,6 +62,7 @@ body{
   right:15%;
   left:15%;
 
+
   background-image: url("/static/StronaMaracza/images/istockphoto-939499120-1024x1024.jpg");
   background-size: cover;
   border-bottom: solid #CB9F52;
@@ -212,7 +213,7 @@ body{
 
 .rowik {
     padding: 2%;
-    background-image: url("/static/StronaMaracza/images/istockphoto-939499120-1024x1024.jpg");
+    background-color: black;
     background-size: cover;
     width: auto;
   }
@@ -248,7 +249,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-image: url("/static/StronaMaracza/images/istockphoto-939499120-1024x1024.jpg");
+  background-color: black;
   background-size: auto;
 
 
@@ -364,7 +365,7 @@ body{
   padding: 4%;
   display: flex;
   justify-content: space-evenly;
-  background-image: url("/static/StronaMaracza/images/istockphoto-939499120-1024x1024.jpg");
+  background-color: black;
   background-size: auto;
 }
 
@@ -445,8 +446,7 @@ body{
 .formularz {
   padding: 4% 0% 4% 0%;
   display: flex;
-
-  background-image: url("/static/StronaMaracza/images/istockphoto-939499120-1024x1024.jpg");
+  background-color: black;
   background-size: auto;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -479,8 +479,7 @@ body{
 .mapa {
   padding: 4%;
   display: flex;
-
-  background-image: url("/static/StronaMaracza/images/istockphoto-939499120-1024x1024.jpg");
+  background-color: black;
   background-size: cover;
 
   justify-content: space-evenly;
@@ -503,7 +502,7 @@ body{
   padding: 4%;
   display: flex;
   justify-content: space-evenly;
-  background-image: url("/static/StronaMaracza/images/istockphoto-939499120-1024x1024.jpg");
+  background-color: black;
   background-size: cover;
 }
 
