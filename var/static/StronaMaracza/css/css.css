@@ -168,7 +168,7 @@ body{
 
   #maleszczesciaimg, #manufakturalagowskiimg {
 
-    width: 30vw !important;
+    width: 35vw !important;
 
   }
 
@@ -203,7 +203,7 @@ body{
 
   li, a, button, p{
 
-    font-size: 18px;
+    font-size: 20px;
   }
 
 
@@ -225,6 +225,11 @@ body{
 
   right:0% !important;
   left:0% !important;
+  }
+
+  .formularz {
+  padding-left: 2% !important;
+  padding-right: 2% !important;
   }
 
 }
